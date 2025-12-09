@@ -9,7 +9,7 @@
 
                 <h1 class="page-heading">
                     Table
-                    <a href="form.html" class="btn btn-primary btn-sm right"><i class="fas fa-plus"></i> Add New</a>
+                    <a href="form.php" class="btn btn-primary btn-sm right"><i class="fas fa-plus"></i> Add New</a>
                 </h1>
 
                 <div class="table-responsive">

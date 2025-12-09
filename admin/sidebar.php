@@ -3,7 +3,7 @@
                     <ul class="nav flex-column">
 
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="index.html">
+                            <a class="nav-link" aria-current="page" href="index.php">
                                 <span data-feather="home" class="align-text-bottom"></span>
                                 Dashboard
                             </a>
@@ -26,25 +26,25 @@
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="form.html">
+                            <a class="nav-link" href="form.php">
                                 <span data-feather="file-text" class="align-text-bottom"></span>
                                 Form
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="form-tab.html">
+                            <a class="nav-link" href="form-tab.php">
                                 <span data-feather="file-text" class="align-text-bottom"></span>
                                 Form Tab
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="table.html">
+                            <a class="nav-link" href="table.php">
                                 <span data-feather="file-text" class="align-text-bottom"></span>
                                 Table
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="datatable.html">
+                            <a class="nav-link" href="datatable.php">
                                 <span data-feather="file-text" class="align-text-bottom"></span>
                                 Data Table
                             </a>

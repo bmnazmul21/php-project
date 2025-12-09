@@ -9,7 +9,7 @@
 
                 <h1 class="page-heading">
                     Form
-                    <a href="table.html" class="btn btn-primary btn-sm right"><i class="fas fa-eye"></i> Show All</a>
+                    <a href="table.php" class="btn btn-primary btn-sm right"><i class="fas fa-eye"></i> Show All</a>
                 </h1>
 
                 <div class="row">
