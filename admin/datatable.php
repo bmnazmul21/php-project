@@ -1,27 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Panel</title>
-
-    <link rel="icon" type="image/png" href="uploads/favicon.png">
-
-    <link rel="stylesheet" href="dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="dist/css/dataTables.bootstrap5.min.css">
-    <link rel="stylesheet" href="dist/css/select2.min.css">
-    <link rel="stylesheet" href="dist/fontawesome-free/css/all.min.css">
-    <link rel="stylesheet" href="dist/css/spacing.css">
-    <link rel="stylesheet" href="dist/css/custom.css">
-
-    <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400;500;600;700;800&amp;display=swap"
-        rel="stylesheet">
-
-</head>
-
-<body>
+<?php include "header.php" ?>
 
     <header class="navbar navbar-custom-color sticky-top bg-dark flex-md-nowrap p-0 shadow">
         <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3 fs-6" href="index.html">Admin Panel</a>
@@ -156,15 +133,4 @@
         </div>
     </div>
 
-    <script src="dist/js/jquery-3.6.3.min.js"></script>
-    <script src="dist/js/bootstrap.min.js"></script>
-    <script src="dist/js/feather.min.js"></script>
-    <script src="dist/js/jquery.dataTables.min.js"></script>
-    <script src="dist/js/dataTables.bootstrap5.min.js"></script>
-    <script src="dist/tinymce/tinymce.min.js"></script>
-    <script src="dist/js/select2.min.js"></script>
-    <script src="dist/js/custom.js"></script>
-
-</body>
-
-</html>
+<?php include "footer.php" ?>
