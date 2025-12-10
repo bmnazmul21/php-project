@@ -13,7 +13,7 @@
                 <a class="nav-link px-3" href="profile.php"><i class="fas fa-user"></i> Edit Profile</a>
             </div>
             <div class="nav-item text-nowrap">
-                <a class="nav-link px-3" href="login.php"><i class="fas fa-sign-out-alt"></i> Logout</a>
+                <a class="nav-link px-3" href="login.php"><i class="fas fa-sign-out-alt"></i> Logou</a>
             </div>
         </div>
     </header>
