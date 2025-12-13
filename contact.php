@@ -43,7 +43,7 @@ if( isset($_POST['form-contact'])){
     $mail->Port = 587;
 
     $mail->setFrom('contact@example.com');
-    $mail->addAddress('arefindev@gmail.com');
+    $mail->addAddress('nazmuldev@gmail.com');
     $mail->addReplyTo('contact@example.com');
     $mail->isHTML(true);
     $mail->Subject = 'TEST SUBJECT';
