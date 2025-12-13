@@ -1,4 +1,64 @@
 <?php include "header.php"; ?>
+    <?php
+        use PHPMailer\PHPMailer\PHPMailer;
+        use PHPMailer\PHPMailer\SMTP;
+        use PHPMailer\PHPMailer\Exception;
+    ?>
+
+<?php
+
+if( isset($_POST['form-contact'])){
+    try{
+        $name = strip_tags($_POST['name']);
+        $email = strip_tags($_POST['email']);
+        $phone = strip_tags($_POST['phone']);
+        $message = strip_tags($_POST['mesaage']);
+
+        if($_POST['name'] == ''){
+            throw new Exception('please enter your name');
+        }
+        if($_POST['email'] == ''){
+            throw new Exception('please enter your email');
+        }
+        if(!filter_var($email, FILTER_VALIDATE_EMAIL)){
+            throw new Exception('please enter your valid email');
+        }
+        if($_POST['phone'] == ''){
+            throw new Exception('please enter your phone number');
+        }
+        if($_POST['message'] == ''){
+            throw new Exception('please enter your message');
+        }
+
+
+
+    $mail = new PHPMailer(true);
+
+    $mail->isSMTP();
+    $mail->Host = 'sandbox.smtp.mailtrap.io';
+    $mail->SMTPAuth = true;
+    $mail->Username = '3be5c1a5027ec7';
+    $mail->Password = 'ec9756d11b34d2';
+    $mail->SMTPSecure = 'tls';
+    $mail->Port = 587;
+
+    $mail->setFrom('contact@example.com');
+    $mail->addAddress('arefindev@gmail.com');
+    $mail->addReplyTo('contact@example.com');
+    $mail->isHTML(true);
+    $mail->Subject = 'TEST SUBJECT';
+    $mail->Body = 'TEST BODY FOR EMAIL';
+
+    $mail->send();
+
+    }catch(Exception $e){
+        $error_message = $e->getMessage();
+    }
+}
+
+
+?>
+
 <!-- breadcrumb start -->
 <div class="breadcrumb">
     <div class="container">
@@ -73,28 +133,28 @@
                         <p class="section-subheading">We would like to hear from you.</p>
                     </div>
                     <div class="contact-form--wrapper">
-                        <form action="#" class="contact-form">
+                        <form action="" class="contact-form" method="post">
                             <div class="row">
                                 <div class="col-lg-4 col-md-12">
                                     <fieldset>
-                                        <input type="text" placeholder="Full Name *">
+                                        <input type="text" placeholder="Full Name *" name="name">
                                     </fieldset>
                                 </div>
                                 <div class="col-lg-4 col-md-12">
                                     <fieldset>
-                                        <input type="email" placeholder="Email Address *">
+                                        <input type="email" placeholder="Email Address *" name="email">
                                     </fieldset>
                                 </div>
                                 <div class="col-lg-4 col-md-12">
                                     <fieldset>
-                                        <input type="text" placeholder="Phone Number *">
+                                        <input type="text" placeholder="Phone Number *" name="phone">
                                     </fieldset>
                                 </div>
                                 <div class="col-lg-12 col-md-12">
                                     <fieldset>
-                                        <textarea cols="20" rows="6" placeholder="Message *"></textarea>
+                                        <textarea cols="20" rows="6" placeholder="Message *" name="message"></textarea>
                                     </fieldset>
-                                    <button type="submit" class="position-relative review-submit-btn contact-submit-btn">SEND MESSAGE</button>
+                                    <button type="submit" class="position-relative review-submit-btn contact-submit-btn" name="form-contact">SEND MESSAGE</button>
                                 </div>
                             </div>                                    
                         </form>
