@@ -3,7 +3,7 @@
 <div class="breadcrumb">
     <div class="container">
         <ul class="list-unstyled d-flex align-items-center m-0">
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li class="ml_10 mr_10">
                 <i class="fas fa-chevron-right"></i>
             </li>
@@ -92,7 +92,7 @@
                                     
                                     <button type="submit" class="checkout-page-btn btn-primary mt_20">CONFIRM ORDER</button>
                                     <div class="mt_20">
-                                        <a href="cart.html" style="color:#F0686E;text-decoration:underline;">Back to Cart</a>
+                                        <a href="cart.php" style="color:#F0686E;text-decoration:underline;">Back to Cart</a>
                                     </div>
                                 </div>
                             </div>
@@ -168,7 +168,7 @@
 
                                 <div class="mt-4 checkout-promo-code">
                                     <input class="input-promo-code" type="text" placeholder="Promo code" />
-                                    <a href="checkout.html" class="btn-apply-code position-relative btn-secondary text-uppercase mt-3">
+                                    <a href="checkout.php" class="btn-apply-code position-relative btn-secondary text-uppercase mt-3">
                                         Apply Promo Code
                                     </a>
                                 </div>

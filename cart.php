@@ -4,7 +4,7 @@
 <div class="breadcrumb">
     <div class="container">
         <ul class="list-unstyled d-flex align-items-center m-0">
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li class="ml_10 mr_10">
                 <i class="fas fa-chevron-right"></i>
             </li>
@@ -92,7 +92,7 @@
                         </table>
                         <div class="d-flex justify-content-start mt-4">
                             <button type="submit" class="position-relative btn-primary text-uppercase mr_20">UPDATE CART</button>
-                            <a href="checkout.html" class="position-relative btn-primary text-uppercase">
+                            <a href="checkout.php" class="position-relative btn-primary text-uppercase">
                                 PROCEED TO CHECKOUT
                             </a>
                         </div>

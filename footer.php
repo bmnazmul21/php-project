@@ -6,8 +6,8 @@
                     <div
                         class="footer-bottom-inner d-flex flex-wrap justify-content-md-between justify-content-center align-items-center">
                         <ul class="footer-bottom-menu list-unstyled d-flex flex-wrap align-items-center mb-0">
-                            <li class="footer-menu-item"><a href="privacy.html">Privacy policy</a></li>
-                            <li class="footer-menu-item"><a href="terms.html">Terms & Conditions</a></li>
+                            <li class="footer-menu-item"><a href="privacy.php">Privacy policy</a></li>
+                            <li class="footer-menu-item"><a href="terms.php">Terms & Conditions</a></li>
                         </ul>
                         <p class="copyright footer-text">Copyright © Morshedul Arefin. All Rights Reserved.</p>
                     </div>
@@ -35,17 +35,17 @@
                     <nav class="site-navigation">
                         <ul class="main-menu list-unstyled">
                             <li class="menu-list-item nav-item active">
-                                <a class="nav-link" href="index.html">Home</a>
+                                <a class="nav-link" href="index.php">Home</a>
                             </li>
                             <li class="menu-list-item nav-item">
-                                <a class="nav-link" href="shop.html">Shop</a>
+                                <a class="nav-link" href="shop.php">Shop</a>
                             </li>
                             <li class="menu-list-item nav-item">
-                                <a class="nav-link" href="blog.html">Blog</a>
+                                <a class="nav-link" href="blog.php">Blog</a>
                             </li>
                             <li class="menu-list-item nav-item has-dropdown">
                                 <div class="mega-menu-header">
-                                    <a class="nav-link active" href="about-us.html">
+                                    <a class="nav-link active" href="about-us.php">
                                         Pages
                                     </a>
                                     <span class="open-submenu">
@@ -61,16 +61,16 @@
                                     </div>
                                     <ul class="submenu list-unstyled">
                                         <li class="menu-list-item nav-item-sub">
-                                            <a class="nav-link-sub nav-text-sub" href="about-us.html">About Us</a>
+                                            <a class="nav-link-sub nav-text-sub" href="about-us.php">About Us</a>
                                         </li>
                                         <li class="menu-list-item nav-item-sub">
-                                            <a class="nav-link-sub nav-text-sub" href="faq.html">FAQ</a>
+                                            <a class="nav-link-sub nav-text-sub" href="faq.php">FAQ</a>
                                         </li>
                                     </ul>
                                 </div>
                             </li>
                             <li class="menu-list-item nav-item">
-                                <a class="nav-link" href="contact.html">Contact</a>
+                                <a class="nav-link" href="contact.php">Contact</a>
                             </li>
                         </ul>
                     </nav>
@@ -84,7 +84,7 @@
                             </a>
                         </li>
                         <li class="utilty-menu-item">
-                            <a class="announcement-login announcement-text" href="login.html">
+                            <a class="announcement-login announcement-text" href="login.php">
                                 <span class="utilty-icon-wrapper">
                                     <i class="far fa-user"></i>
                                 </span>

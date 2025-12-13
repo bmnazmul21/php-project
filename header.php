@@ -90,7 +90,7 @@
                     <div class="col-lg-3 d-lg-block d-none">
                         <div class="announcement-meta-wrapper d-flex align-items-center justify-content-end">
                             <div class="announcement-meta d-flex align-items-center">
-                                <a class="announcement-login announcement-text text-white" href="login.html">
+                                <a class="announcement-login announcement-text text-white" href="login.php">
                                     <i class="far fa-user"></i>
                                     <span>User Login</span>
                                 </a>
@@ -111,7 +111,7 @@
                     <div class="row align-items-center">
                         <div class="col-lg-3 col-md-4 col-4">
                             <div class="header-logo">
-                                <a href="index.html" class="logo-main">
+                                <a href="index.php" class="logo-main">
                                     <img src="assets/img/logo.png" loading="lazy" alt="">
                                 </a>
                             </div>
@@ -120,17 +120,17 @@
                             <nav class="site-navigation">
                                 <ul class="main-menu list-unstyled justify-content-center">
                                     <li class="menu-list-item nav-item active">
-                                        <a class="nav-link" href="index.html">Home</a>
+                                        <a class="nav-link" href="index.php">Home</a>
                                     </li>
                                     <li class="menu-list-item nav-item">
-                                        <a class="nav-link" href="shop.html">Shop</a>
+                                        <a class="nav-link" href="shop.php">Shop</a>
                                     </li>
                                     <li class="menu-list-item nav-item">
-                                        <a class="nav-link" href="blog.html">Blog</a>
+                                        <a class="nav-link" href="blog.php">Blog</a>
                                     </li>
                                     <li class="menu-list-item nav-item has-dropdown">
                                         <div class="mega-menu-header">
-                                            <a class="nav-link" href="about-us.html">
+                                            <a class="nav-link" href="about-us.php">
                                                 Pages
                                             </a>
                                             <span class="open-submenu">
@@ -140,16 +140,16 @@
                                         <div class="submenu-transform submenu-transform-desktop">
                                             <ul class="submenu list-unstyled">
                                                 <li class="menu-list-item nav-item-sub">
-                                                    <a class="nav-link-sub nav-text-sub" href="about-us.html">About Us</a>
+                                                    <a class="nav-link-sub nav-text-sub" href="about-us.php">About Us</a>
                                                 </li>
                                                 <li class="menu-list-item nav-item-sub">
-                                                    <a class="nav-link-sub nav-text-sub" href="faq.html">FAQ</a>
+                                                    <a class="nav-link-sub nav-text-sub" href="faq.php">FAQ</a>
                                                 </li>
                                             </ul>
                                         </div>
                                     </li>
                                     <li class="menu-list-item nav-item">
-                                        <a class="nav-link" href="contact.html">Contact</a>
+                                        <a class="nav-link" href="contact.php">Contact</a>
                                     </li>
                                 </ul>
                             </nav>
@@ -164,7 +164,7 @@
                                             fill="black" />
                                     </svg>
                                 </a>
-                                <a class="header-action-item header-cart ms-4" href="cart.html">
+                                <a class="header-action-item header-cart ms-4" href="cart.php">
                                     <svg class="icon icon-cart" width="24" height="26" viewBox="0 0 24 26" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path

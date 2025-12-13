@@ -3,7 +3,7 @@
 <div class="breadcrumb">
     <div class="container">
         <ul class="list-unstyled d-flex align-items-center m-0">
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li class="ml_10 mr_10">
                 <i class="fas fa-chevron-right"></i>
             </li>
@@ -37,7 +37,7 @@
                                     <span class="ms-2">3 Comments</span>
                                 </a>
                                 <span class="article-separator mx-3 d-none d-sm-block">|</span>
-                                <a href="post.html" class="article-date d-none d-sm-flex align-items-center">
+                                <a href="post.php" class="article-date d-none d-sm-flex align-items-center">
                                     <span class="icon-tag">
                                         <i class="fas fa-th-large"></i>
                                     </span>
@@ -55,8 +55,8 @@
                         </div>
 
                         <div class="next-prev-article mt-5 d-flex align-items-center justify-content-between">
-                            <a href="post.html" class="article-btn prev-article-btn mt-2">PREV ARTICLE</a>
-                            <a href="post.html" class="article-btn next-article-btn active mt-2">NEXT ARTICLE</a>
+                            <a href="post.php" class="article-btn prev-article-btn mt-2">PREV ARTICLE</a>
+                            <a href="post.php" class="article-btn next-article-btn active mt-2">NEXT ARTICLE</a>
                         </div>
 
                         <div class="comments-section mt-100 home-section overflow-hidden">
@@ -212,7 +212,7 @@
                                     </div>
                                     <div class="related-product-info">
                                         <h2 class="related-heading text_14">
-                                            <a href="post.html">Modern furniture in velvet</a>
+                                            <a href="post.php">Modern furniture in velvet</a>
                                         </h2>
                                         <p class="article-card-published text_12 d-flex align-items-center mt-2">
                                             <span class="article-date d-flex align-items-center">
@@ -230,7 +230,7 @@
                                     </div>
                                     <div class="related-product-info">
                                         <h2 class="related-heading text_14">
-                                            <a href="post.html">Ultimate luxury furniture</a>
+                                            <a href="post.php">Ultimate luxury furniture</a>
                                         </h2>
                                         <p class="article-card-published text_12 d-flex align-items-center mt-2">
                                             <span class="article-date d-flex align-items-center">
@@ -248,7 +248,7 @@
                                     </div>
                                     <div class="related-product-info">
                                         <h2 class="related-heading text_14">
-                                            <a href="post.html">Small bedroom look bigger</a>
+                                            <a href="post.php">Small bedroom look bigger</a>
                                         </h2>
                                         <p class="article-card-published text_12 d-flex align-items-center mt-2">
                                             <span class="article-date d-flex align-items-center">
@@ -266,7 +266,7 @@
                                     </div>
                                     <div class="related-product-info">
                                         <h2 class="related-heading text_14">
-                                            <a href="post.html">Update your living room</a>
+                                            <a href="post.php">Update your living room</a>
                                         </h2>
                                         <p class="article-card-published text_12 d-flex align-items-center mt-2">
                                             <span class="article-date d-flex align-items-center">
@@ -284,7 +284,7 @@
                                     </div>
                                     <div class="related-product-info">
                                         <h2 class="related-heading text_14">
-                                            <a href="post.html">Choose the right fabric</a>
+                                            <a href="post.php">Choose the right fabric</a>
                                         </h2>
                                         <p class="article-card-published text_12 d-flex align-items-center mt-2">
                                             <span class="article-date d-flex align-items-center">
@@ -303,16 +303,16 @@
                                 Popular Tags
                             </div>
                             <ul class="filter-tags list-unstyled">
-                                <li class="tag-item"><a href="post.html">Popular</a></li>
-                                <li class="tag-item"><a href="post.html">Agency</a></li>
-                                <li class="tag-item"><a href="post.html">Furniture</a></li>
-                                <li class="tag-item"><a href="post.html">creative</a></li>
-                                <li class="tag-item"><a href="post.html">design</a></li>
-                                <li class="tag-item"><a href="post.html">modern</a></li>
-                                <li class="tag-item"><a href="post.html">UX</a></li>
-                                <li class="tag-item"><a href="post.html">web</a></li>
-                                <li class="tag-item"><a href="post.html">bag</a></li>
-                                <li class="tag-item"><a href="post.html">shoe</a></li>
+                                <li class="tag-item"><a href="post.php">Popular</a></li>
+                                <li class="tag-item"><a href="post.php">Agency</a></li>
+                                <li class="tag-item"><a href="post.php">Furniture</a></li>
+                                <li class="tag-item"><a href="post.php">creative</a></li>
+                                <li class="tag-item"><a href="post.php">design</a></li>
+                                <li class="tag-item"><a href="post.php">modern</a></li>
+                                <li class="tag-item"><a href="post.php">UX</a></li>
+                                <li class="tag-item"><a href="post.php">web</a></li>
+                                <li class="tag-item"><a href="post.php">bag</a></li>
+                                <li class="tag-item"><a href="post.php">shoe</a></li>
                             </ul>
                         </div>
                     </div>

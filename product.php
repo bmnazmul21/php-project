@@ -3,7 +3,7 @@
 <div class="breadcrumb">
     <div class="container">
         <ul class="list-unstyled d-flex align-items-center m-0">
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li class="ml_10 mr_10">
                 <i class="fas fa-chevron-right"></i>
             </li>
@@ -296,7 +296,7 @@
             <div class="new-item">
                 <div class="product-card">
                     <div class="product-card-img">
-                        <a class="hover-switch" href="product.html">
+                        <a class="hover-switch" href="product.php">
                             <img class="primary-img" src="assets/img/products/bags/1.jpg" alt="">
                         </a>
 
@@ -304,12 +304,12 @@
                             <a href="#" class="addtocart-btn btn-primary">ADD TO CART</a>
                         </div>
 
-                        <a href="wishlist.html" class="wishlist-btn card-wishlist">
+                        <a href="wishlist.php" class="wishlist-btn card-wishlist">
                             <i class="far fa-heart" style="color:#000;font-size:20px;"></i>
                         </a>
                     </div>
                     <div class="product-card-details text-center">
-                        <h3 class="product-card-title"><a href="product.html">black backpack</a>
+                        <h3 class="product-card-title"><a href="product.php">black backpack</a>
                         </h3>
                         <div class="product-card-price">
                             <span class="card-price-regular">৳1529</span>
@@ -321,7 +321,7 @@
             <div class="new-item">
                 <div class="product-card">
                     <div class="product-card-img">
-                        <a class="hover-switch" href="product.html">
+                        <a class="hover-switch" href="product.php">
                             <img class="primary-img" src="assets/img/products/bags/2.jpg" alt="">
                         </a>
 
@@ -329,12 +329,12 @@
                             <a href="#" class="addtocart-btn btn-primary">ADD TO CART</a>
                         </div>
 
-                        <a href="wishlist.html" class="wishlist-btn card-wishlist">
+                        <a href="wishlist.php" class="wishlist-btn card-wishlist">
                             <i class="far fa-heart" style="color:#000;font-size:20px;"></i>
                         </a>
                     </div>
                     <div class="product-card-details text-center">
-                        <h3 class="product-card-title"><a href="product.html">lady handbag</a>
+                        <h3 class="product-card-title"><a href="product.php">lady handbag</a>
                         </h3>
                         <div class="product-card-price">
                             <span class="card-price-regular">৳529</span>
@@ -346,7 +346,7 @@
             <div class="new-item">
                 <div class="product-card">
                     <div class="product-card-img">
-                        <a class="hover-switch" href="product.html">
+                        <a class="hover-switch" href="product.php">
                             <img class="primary-img" src="assets/img/products/bags/3.jpg" alt="">
                         </a>
 
@@ -354,12 +354,12 @@
                             <a href="#" class="addtocart-btn btn-primary">ADD TO CART</a>
                         </div>
 
-                        <a href="wishlist.html" class="wishlist-btn card-wishlist">
+                        <a href="wishlist.php" class="wishlist-btn card-wishlist">
                             <i class="far fa-heart" style="color:#000;font-size:20px;"></i>
                         </a>
                     </div>
                     <div class="product-card-details text-center">
-                        <h3 class="product-card-title"><a href="product.html">men travel bag</a>
+                        <h3 class="product-card-title"><a href="product.php">men travel bag</a>
                         </h3>
                         <div class="product-card-price">
                             <span class="card-price-regular">৳529</span>
@@ -371,7 +371,7 @@
             <div class="new-item">
                 <div class="product-card">
                     <div class="product-card-img">
-                        <a class="hover-switch" href="product.html">
+                        <a class="hover-switch" href="product.php">
                             <img class="primary-img" src="assets/img/products/bags/4.jpg" alt="">
                         </a>
 
@@ -379,12 +379,12 @@
                             <a href="#" class="addtocart-btn btn-primary">ADD TO CART</a>
                         </div>
 
-                        <a href="wishlist.html" class="wishlist-btn card-wishlist">
+                        <a href="wishlist.php" class="wishlist-btn card-wishlist">
                             <i class="far fa-heart" style="color:#000;font-size:20px;"></i>
                         </a>
                     </div>
                     <div class="product-card-details text-center">
-                        <h3 class="product-card-title"><a href="product.html">nike legend
+                        <h3 class="product-card-title"><a href="product.php">nike legend
                                 stripe</a>
                         </h3>
                         <div class="product-card-price">
@@ -396,7 +396,7 @@
             <div class="new-item">
                 <div class="product-card">
                     <div class="product-card-img">
-                        <a class="hover-switch" href="product.html">
+                        <a class="hover-switch" href="product.php">
                             <img class="primary-img" src="assets/img/products/bags/5.jpg" alt="">
                         </a>
 
@@ -404,12 +404,12 @@
                             <a href="#" class="addtocart-btn btn-primary">ADD TO CART</a>
                         </div>
 
-                        <a href="wishlist.html" class="wishlist-btn card-wishlist">
+                        <a href="wishlist.php" class="wishlist-btn card-wishlist">
                             <i class="far fa-heart" style="color:#000;font-size:20px;"></i>
                         </a>
                     </div>
                     <div class="product-card-details text-center">
-                        <h3 class="product-card-title"><a href="product.html">nike legend
+                        <h3 class="product-card-title"><a href="product.php">nike legend
                                 stripe</a>
                         </h3>
                         <div class="product-card-price">
@@ -421,7 +421,7 @@
             <div class="new-item">
                 <div class="product-card">
                     <div class="product-card-img">
-                        <a class="hover-switch" href="product.html">
+                        <a class="hover-switch" href="product.php">
                             <img class="primary-img" src="assets/img/products/bags/6.jpg" alt="">
                         </a>
 
@@ -429,12 +429,12 @@
                             <a href="#" class="addtocart-btn btn-primary">ADD TO CART</a>
                         </div>
 
-                        <a href="wishlist.html" class="wishlist-btn card-wishlist">
+                        <a href="wishlist.php" class="wishlist-btn card-wishlist">
                             <i class="far fa-heart" style="color:#000;font-size:20px;"></i>
                         </a>
                     </div>
                     <div class="product-card-details text-center">
-                        <h3 class="product-card-title"><a href="product.html">nike legend
+                        <h3 class="product-card-title"><a href="product.php">nike legend
                                 stripe</a>
                         </h3>
                         <div class="product-card-price">
@@ -446,7 +446,7 @@
             <div class="new-item">
                 <div class="product-card">
                     <div class="product-card-img">
-                        <a class="hover-switch" href="product.html">
+                        <a class="hover-switch" href="product.php">
                             <img class="primary-img" src="assets/img/products/bags/7.jpg" alt="">
                         </a>
 
@@ -454,12 +454,12 @@
                             <a href="#" class="addtocart-btn btn-primary">ADD TO CART</a>
                         </div>
 
-                        <a href="wishlist.html" class="wishlist-btn card-wishlist">
+                        <a href="wishlist.php" class="wishlist-btn card-wishlist">
                             <i class="far fa-heart" style="color:#000;font-size:20px;"></i>
                         </a>
                     </div>
                     <div class="product-card-details text-center">
-                        <h3 class="product-card-title"><a href="product.html">women vanity
+                        <h3 class="product-card-title"><a href="product.php">women vanity
                                 bag</a>
                         </h3>
                         <div class="product-card-price">
@@ -471,7 +471,7 @@
             <div class="new-item">
                 <div class="product-card">
                     <div class="product-card-img">
-                        <a class="hover-switch" href="product.html">
+                        <a class="hover-switch" href="product.php">
                             <img class="primary-img" src="assets/img/products/bags/8.jpg" alt="">
                         </a>
 
@@ -479,12 +479,12 @@
                             <a href="#" class="addtocart-btn btn-primary">ADD TO CART</a>
                         </div>
 
-                        <a href="wishlist.html" class="wishlist-btn card-wishlist">
+                        <a href="wishlist.php" class="wishlist-btn card-wishlist">
                             <i class="far fa-heart" style="color:#000;font-size:20px;"></i>
                         </a>
                     </div>
                     <div class="product-card-details text-center">
-                        <h3 class="product-card-title"><a href="product.html">women large bag</a>
+                        <h3 class="product-card-title"><a href="product.php">women large bag</a>
                         </h3>
                         <div class="product-card-price">
                             <span class="card-price-regular">৳529</span>

@@ -33,7 +33,7 @@
                                 Best Bags 2022
                             </h2>
                             <a class="btn-primary slide-btn animate__animated animate__fadeInUp"
-                                href="product.html"
+                                href="product.php"
                                 data-animation="animate__animated animate__fadeInUp">SHOP
                                 NOW</a>
                         </div>
@@ -55,7 +55,7 @@
                                 Best Bags 2022
                             </h2>
                             <a class="btn-primary slide-btn animate__animated animate__fadeInUp"
-                                href="product.html"
+                                href="product.php"
                                 data-animation="animate__animated animate__fadeInUp">SHOP
                                 NOW</a>
                         </div>
@@ -77,7 +77,7 @@
                                 Best Bags 2022
                             </h2>
                             <a class="btn-primary slide-btn animate__animated animate__fadeInUp"
-                                href="product.html"
+                                href="product.php"
                                 data-animation="animate__animated animate__fadeInUp">SHOP
                                 NOW</a>
                         </div>
@@ -98,7 +98,7 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-6 col-md-6 col-12">
-                        <a class="banner-item position-relative rounded" href="product.html">
+                        <a class="banner-item position-relative rounded" href="product.php">
                             <img class="banner-img" src="assets/img/banner/bag-1.jpg" alt="banner-1">
                             <div class="content-absolute content-slide">
                                 <div class="container height-inherit d-flex align-items-center">
@@ -111,7 +111,7 @@
                         </a>
                     </div>
                     <div class="col-lg-6 col-md-6 col-12">
-                        <a class="banner-item position-relative rounded" href="product.html">
+                        <a class="banner-item position-relative rounded" href="product.php">
                             <img class="banner-img" src="assets/img/banner/bag-2.jpg" alt="banner-2">
                             <div class="content-absolute content-slide">
                                 <div class="container height-inherit d-flex align-items-center">
@@ -140,7 +140,7 @@
                     <div class="col-lg-3 col-md-6 col-6">
                         <div class="product-card">
                             <div class="product-card-img">
-                                <a class="hover-switch" href="product.html">
+                                <a class="hover-switch" href="product.php">
                                     <img class="primary-img" src="assets/img/products/bags/1.jpg" alt="">
                                 </a>
 
@@ -148,12 +148,12 @@
                                     <a href="#" class="addtocart-btn btn-primary">ADD TO CART</a>
                                 </div>
 
-                                <a href="wishlist.html" class="wishlist-btn card-wishlist">
+                                <a href="wishlist.php" class="wishlist-btn card-wishlist">
                                     <i class="far fa-heart" style="color:#000;font-size:20px;"></i>
                                 </a>
                             </div>
                             <div class="product-card-details text-center">
-                                <h3 class="product-card-title"><a href="product.html">black backpack</a>
+                                <h3 class="product-card-title"><a href="product.php">black backpack</a>
                                 </h3>
                                 <div class="product-card-price">
                                     <span class="card-price-regular">৳1529</span>
@@ -165,7 +165,7 @@
                     <div class="col-lg-3 col-md-6 col-6">
                         <div class="product-card">
                             <div class="product-card-img">
-                                <a class="hover-switch" href="product.html">
+                                <a class="hover-switch" href="product.php">
                                     <img class="primary-img" src="assets/img/products/bags/2.jpg" alt="">
                                 </a>
 
@@ -173,12 +173,12 @@
                                     <a href="#" class="addtocart-btn btn-primary">ADD TO CART</a>
                                 </div>
 
-                                <a href="wishlist.html" class="wishlist-btn card-wishlist">
+                                <a href="wishlist.php" class="wishlist-btn card-wishlist">
                                     <i class="far fa-heart" style="color:#000;font-size:20px;"></i>
                                 </a>
                             </div>
                             <div class="product-card-details text-center">
-                                <h3 class="product-card-title"><a href="product.html">lady handbag</a>
+                                <h3 class="product-card-title"><a href="product.php">lady handbag</a>
                                 </h3>
                                 <div class="product-card-price">
                                     <span class="card-price-regular">৳529</span>
@@ -190,7 +190,7 @@
                     <div class="col-lg-3 col-md-6 col-6">
                         <div class="product-card">
                             <div class="product-card-img">
-                                <a class="hover-switch" href="product.html">
+                                <a class="hover-switch" href="product.php">
                                     <img class="primary-img" src="assets/img/products/bags/3.jpg" alt="">
                                 </a>
 
@@ -198,12 +198,12 @@
                                     <a href="#" class="addtocart-btn btn-primary">ADD TO CART</a>
                                 </div>
 
-                                <a href="wishlist.html" class="wishlist-btn card-wishlist">
+                                <a href="wishlist.php" class="wishlist-btn card-wishlist">
                                     <i class="far fa-heart" style="color:#000;font-size:20px;"></i>
                                 </a>
                             </div>
                             <div class="product-card-details text-center">
-                                <h3 class="product-card-title"><a href="product.html">men travel bag</a>
+                                <h3 class="product-card-title"><a href="product.php">men travel bag</a>
                                 </h3>
                                 <div class="product-card-price">
                                     <span class="card-price-regular">৳529</span>
@@ -215,7 +215,7 @@
                     <div class="col-lg-3 col-md-6 col-6">
                         <div class="product-card">
                             <div class="product-card-img">
-                                <a class="hover-switch" href="product.html">
+                                <a class="hover-switch" href="product.php">
                                     <img class="primary-img" src="assets/img/products/bags/4.jpg" alt="">
                                 </a>
 
@@ -223,12 +223,12 @@
                                     <a href="#" class="addtocart-btn btn-primary">ADD TO CART</a>
                                 </div>
 
-                                <a href="wishlist.html" class="wishlist-btn card-wishlist">
+                                <a href="wishlist.php" class="wishlist-btn card-wishlist">
                                     <i class="far fa-heart" style="color:#000;font-size:20px;"></i>
                                 </a>
                             </div>
                             <div class="product-card-details text-center">
-                                <h3 class="product-card-title"><a href="product.html">nike legend stripe</a></h3>
+                                <h3 class="product-card-title"><a href="product.php">nike legend stripe</a></h3>
                                 <div class="product-card-price">
                                     <span class="card-price-regular">৳529</span>
                                 </div>
@@ -238,7 +238,7 @@
                     <div class="col-lg-3 col-md-6 col-6">
                         <div class="product-card">
                             <div class="product-card-img">
-                                <a class="hover-switch" href="product.html">
+                                <a class="hover-switch" href="product.php">
                                     <img class="primary-img" src="assets/img/products/bags/5.jpg"
                                         alt="product-img">
                                 </a>
@@ -247,12 +247,12 @@
                                     <a href="#" class="addtocart-btn btn-primary">ADD TO CART</a>
                                 </div>
 
-                                <a href="wishlist.html" class="wishlist-btn card-wishlist">
+                                <a href="wishlist.php" class="wishlist-btn card-wishlist">
                                     <i class="far fa-heart" style="color:#000;font-size:20px;"></i>
                                 </a>
                             </div>
                             <div class="product-card-details text-center">
-                                <h3 class="product-card-title"><a href="product.html">nike legend
+                                <h3 class="product-card-title"><a href="product.php">nike legend
                                         stripe</a>
                                 </h3>
                                 <div class="product-card-price">
@@ -264,7 +264,7 @@
                     <div class="col-lg-3 col-md-6 col-6">
                         <div class="product-card">
                             <div class="product-card-img">
-                                <a class="hover-switch" href="product.html">
+                                <a class="hover-switch" href="product.php">
                                     <img class="primary-img" src="assets/img/products/bags/6.jpg" alt="">
                                 </a>
 
@@ -272,12 +272,12 @@
                                     <a href="#" class="addtocart-btn btn-primary">ADD TO CART</a>
                                 </div>
 
-                                <a href="wishlist.html" class="wishlist-btn card-wishlist">
+                                <a href="wishlist.php" class="wishlist-btn card-wishlist">
                                     <i class="far fa-heart" style="color:#000;font-size:20px;"></i>
                                 </a>
                             </div>
                             <div class="product-card-details text-center">
-                                <h3 class="product-card-title"><a href="product.html">nike legend
+                                <h3 class="product-card-title"><a href="product.php">nike legend
                                         stripe</a>
                                 </h3>
                                 <div class="product-card-price">
@@ -289,7 +289,7 @@
                     <div class="col-lg-3 col-md-6 col-6">
                         <div class="product-card">
                             <div class="product-card-img">
-                                <a class="hover-switch" href="product.html">
+                                <a class="hover-switch" href="product.php">
                                     <img class="primary-img" src="assets/img/products/bags/7.jpg" alt="">
                                 </a>
 
@@ -297,12 +297,12 @@
                                     <a href="#" class="addtocart-btn btn-primary">ADD TO CART</a>
                                 </div>
 
-                                <a href="wishlist.html" class="wishlist-btn card-wishlist">
+                                <a href="wishlist.php" class="wishlist-btn card-wishlist">
                                     <i class="far fa-heart" style="color:#000;font-size:20px;"></i>
                                 </a>
                             </div>
                             <div class="product-card-details text-center">
-                                <h3 class="product-card-title"><a href="product.html">women vanity
+                                <h3 class="product-card-title"><a href="product.php">women vanity
                                         bag</a>
                                 </h3>
                                 <div class="product-card-price">
@@ -314,7 +314,7 @@
                     <div class="col-lg-3 col-md-6 col-6">
                         <div class="product-card">
                             <div class="product-card-img">
-                                <a class="hover-switch" href="product.html">
+                                <a class="hover-switch" href="product.php">
                                     <img class="primary-img" src="assets/img/products/bags/8.jpg" alt="">
                                 </a>
 
@@ -322,12 +322,12 @@
                                     <a href="#" class="addtocart-btn btn-primary">ADD TO CART</a>
                                 </div>
 
-                                <a href="wishlist.html" class="wishlist-btn card-wishlist">
+                                <a href="wishlist.php" class="wishlist-btn card-wishlist">
                                     <i class="far fa-heart" style="color:#000;font-size:20px;"></i>
                                 </a>
                             </div>
                             <div class="product-card-details text-center">
-                                <h3 class="product-card-title"><a href="product.html">women large
+                                <h3 class="product-card-title"><a href="product.php">women large
                                         bag</a>
                                 </h3>
                                 <div class="product-card-price">
@@ -355,11 +355,11 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-6 col-12">
                         <div class="article-card bg-transparent p-0 shadow-none">
-                            <a class="article-card-img-wrapper" href="post.html">
+                            <a class="article-card-img-wrapper" href="post.php">
                                 <img src="assets/img/instagram/bag1.jpg" alt="" class="article-card-img rounded">
                             </a>
                             <h2 class="article-card-heading heading_18 text-center">
-                                <a class="heading_18" href="shop.html">
+                                <a class="heading_18" href="shop.php">
                                     Women Bag
                                 </a>
                             </h2>
@@ -367,11 +367,11 @@
                     </div>
                     <div class="col-lg-3 col-md-6 col-12">
                         <div class="article-card bg-transparent p-0 shadow-none">
-                            <a class="article-card-img-wrapper" href="post.html">
+                            <a class="article-card-img-wrapper" href="post.php">
                                 <img src="assets/img/instagram/bag2.jpg" alt="" class="article-card-img rounded">
                             </a>
                             <h2 class="article-card-heading heading_18 text-center">
-                                <a class="heading_18" href="post.html">
+                                <a class="heading_18" href="post.php">
                                     Man Bag
                                 </a>
                             </h2>
@@ -379,11 +379,11 @@
                     </div>
                     <div class="col-lg-3 col-md-6 col-12">
                         <div class="article-card bg-transparent p-0 shadow-none">
-                            <a class="article-card-img-wrapper" href="post.html">
+                            <a class="article-card-img-wrapper" href="post.php">
                                 <img src="assets/img/instagram/bag3.jpg" alt="" class="article-card-img rounded">
                             </a>
                             <h2 class="article-card-heading heading_18 text-center">
-                                <a class="heading_18" href="post.html">
+                                <a class="heading_18" href="post.php">
                                     Travel Bag
                                 </a>
                             </h2>
@@ -391,11 +391,11 @@
                     </div>
                     <div class="col-lg-3 col-md-6 col-12">
                         <div class="article-card bg-transparent p-0 shadow-none">
-                            <a class="article-card-img-wrapper" href="post.html">
+                            <a class="article-card-img-wrapper" href="post.php">
                                 <img src="assets/img/instagram/bag4.jpg" alt="" class="article-card-img rounded">
                             </a>
                             <h2 class="article-card-heading heading_18 text-center">
-                                <a class="heading_18" href="post.html">
+                                <a class="heading_18" href="post.php">
                                     Children Bag
                                 </a>
                             </h2>
@@ -438,61 +438,61 @@
                     }'>
                         <div class="article-slick-item">
                             <div class="article-card">
-                                <a class="article-card-img-wrapper" href="post.html">
+                                <a class="article-card-img-wrapper" href="post.php">
                                     <img src="assets/img/blog/bag-1.jpg" alt="" class="article-card-img rounded">
                                 </a>
                                 <p class="article-card-published text_12">30 July 2022</p>
                                 <h2 class="article-card-heading heading_18">
-                                    <a class="heading_18" href="post.html">
+                                    <a class="heading_18" href="post.php">
                                         The fairycore trend is a 2022 fashion hit as fairies.
                                     </a>
                                 </h2>
-                                <a class="article-card-read-more text_14 link-underline" href="post.html">Read More</a>
+                                <a class="article-card-read-more text_14 link-underline" href="post.php">Read More</a>
                             </div>
                         </div>
                         <div class="article-slick-item">
                             <div class="article-card">
-                                <a class="article-card-img-wrapper" href="post.html">
+                                <a class="article-card-img-wrapper" href="post.php">
                                     <img src="assets/img/blog/bag-2.jpg" alt="" class="article-card-img rounded">
                                 </a>
                                 <p class="article-card-published text_12">30 July 2022</p>
                                 <h2 class="article-card-heading heading_18">
-                                    <a class="heading_18" href="post.html">
+                                    <a class="heading_18" href="post.php">
                                         TOP 10 most fahionable ladies bag on super sale!
                                     </a>
                                 </h2>
-                                <a class="article-card-read-more text_14 link-underline" href="post.html">Read More</a>
+                                <a class="article-card-read-more text_14 link-underline" href="post.php">Read More</a>
                             </div>
                         </div>
                         <div class="article-slick-item">
                             <div class="article-card">
-                                <a class="article-card-img-wrapper" href="post.html">
+                                <a class="article-card-img-wrapper" href="post.php">
                                     <img src="assets/img/blog/bag-3.jpg" alt="" class="article-card-img rounded">
                                 </a>
                                 <p class="article-card-published text_12">30 July 2022</p>
                                 <h2 class="article-card-heading heading_18">
-                                    <a class="heading_18" href="post.html">
+                                    <a class="heading_18" href="post.php">
                                         Polish fashion, eco products and the national art seence.
                                     </a>
                                 </h2>
                                 <a class="article-card-read-more text_14 link-underline"
-                                    href="post.html">Read
+                                    href="post.php">Read
                                     More</a>
                             </div>
                         </div>
                         <div class="article-slick-item">
                             <div class="article-card">
-                                <a class="article-card-img-wrapper" href="post.html">
+                                <a class="article-card-img-wrapper" href="post.php">
                                     <img src="assets/img/blog/bag-2.jpg" alt="" class="article-card-img rounded">
                                 </a>
                                 <p class="article-card-published text_12">30 July 2022</p>
                                 <h2 class="article-card-heading heading_18">
-                                    <a class="heading_18" href="post.html">
+                                    <a class="heading_18" href="post.php">
                                         Polish fashion, eco products and the national art seence.
                                     </a>
                                 </h2>
                                 <a class="article-card-read-more text_14 link-underline"
-                                    href="post.html">Read
+                                    href="post.php">Read
                                     More</a>
                             </div>
                         </div>
@@ -631,7 +631,7 @@
                         </div>
                     </div>
                     <div class="view-all text-center">
-                        <a class="btn-primary" href="faq.html">SEE MORE</a>
+                        <a class="btn-primary" href="faq.php">SEE MORE</a>
                     </div>
                 </div>
             </div>
@@ -682,32 +682,32 @@
                 <div class="brand-logo-container overflow-hidden">
                     <div class="scroll-horizontal row align-items-center flex-nowrap">
                         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6">
-                            <a href="index.html" class="brand-logo d-flex align-items-center justify-content-center">
+                            <a href="index.php" class="brand-logo d-flex align-items-center justify-content-center">
                                 <img src="assets/img/brand/1.png" alt="img">
                             </a>
                         </div>
                         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6">
-                            <a href="index.html" class="brand-logo d-flex align-items-center justify-content-center">
+                            <a href="index.php" class="brand-logo d-flex align-items-center justify-content-center">
                                 <img src="assets/img/brand/2.png" alt="img">
                             </a>
                         </div>
                         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6">
-                            <a href="index.html" class="brand-logo d-flex align-items-center justify-content-center">
+                            <a href="index.php" class="brand-logo d-flex align-items-center justify-content-center">
                                 <img src="assets/img/brand/3.png" alt="img">
                             </a>
                         </div>
                         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6">
-                            <a href="index.html" class="brand-logo d-flex align-items-center justify-content-center">
+                            <a href="index.php" class="brand-logo d-flex align-items-center justify-content-center">
                                 <img src="assets/img/brand/4.png" alt="img">
                             </a>
                         </div>
                         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6">
-                            <a href="index.html" class="brand-logo d-flex align-items-center justify-content-center">
+                            <a href="index.php" class="brand-logo d-flex align-items-center justify-content-center">
                                 <img src="assets/img/brand/5.png" alt="img">
                             </a>
                         </div>
                         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6">
-                            <a href="index.html" class="brand-logo d-flex align-items-center justify-content-center">
+                            <a href="index.php" class="brand-logo d-flex align-items-center justify-content-center">
                                 <img src="assets/img/brand/6.png" alt="img">
                             </a>
                         </div>
