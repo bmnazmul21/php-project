@@ -6,7 +6,6 @@
     ?>
 
 <?php
-
 if( isset($_POST['form-contact'])){
     try{
         $name = strip_tags($_POST['name']);
@@ -29,6 +28,9 @@ if( isset($_POST['form-contact'])){
         if($_POST['message'] == ''){
             throw new Exception('please enter your message');
         }
+    // this is mailer code
+
+        
 
 
 
