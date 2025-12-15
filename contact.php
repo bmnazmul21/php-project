@@ -36,12 +36,12 @@ if (isset($_POST['form-contact'])) {
         $mail->Host = SMTP_HOST;
         $mail->SMTPAuth = true;
         $mail->Port = SMTP_PORT;
-        $mail->Username = 'SMTP_USERNAME';
-        $mail->Password = 'SMTP_PASSWORD';
-        $mail->SMTPSecure = 'SMTP_ENCRYPTION';
+        $mail->Username = SMTP_USERNAME;
+        $mail->Password = SMTP_PASSWORD;
+        $mail->SMTPSecure = SMTP_ENCRYPTION;
 
 
-        $mail->setFrom('SMTP_FROM');
+        $mail->setFrom(SMTP_FROM);
         $mail->addAddress('nazmuldev@gmail.com');
         $mail->addReplyTo('contact@example.com');
 
@@ -56,21 +56,19 @@ if (isset($_POST['form-contact'])) {
         $mail->Body = $mail_message;
 
         $mail->send();
+
+        $_SESSION['success_message'] = 'Thank you for contacting us. We will get back to you shortly.';
         unset($_POST['name']);
         unset($_POST['email']);
         unset($_POST['phone']);
         unset($_POST['message']);
-
-        $_SESSION['success_message'] = 'Thank you for contacting us. We will get back to you shortly.';
         header("Location: contact.php");
         exit();
     
 
     } catch (Exception $e) {
         $error_message = $e->getMessage();
-        $_SESSION['error_message'] = $error_message;
-        header("Location: contact.php");
-        exit();
+       
     } 
 }
 
@@ -151,13 +149,6 @@ if (isset($_POST['form-contact'])) {
                         <p class="section-subheading">We would like to hear from you.</p>
                     </div>
                     <div class="contact-form--wrapper">
-                        <?php
-                        if (isset($_SESSION['error_message'])) {
-                            echo '<div class="alert alert-danger" role="alert">' . $_SESSION['error_message'] . '</div>';
-                        }if (isset($_SESSION['success_message'])) {
-                            echo '<div class="alert alert-success" role="alert">' . $_SESSION['success_message'] . '</div>';
-                        }    
-                        ?>
                         <form action="" class="contact-form" method="post">
                             <div class="row">
                                 <div class="col-lg-4 col-md-12">
