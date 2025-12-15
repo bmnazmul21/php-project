@@ -1,56 +1,77 @@
 <?php include "header.php"; ?>
-    <?php
-        use PHPMailer\PHPMailer\PHPMailer;
-        use PHPMailer\PHPMailer\SMTP;
-        use PHPMailer\PHPMailer\Exception;
-    ?>
+<?php
+
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception;
+?>
 
 <?php
-if( isset($_POST['form-contact'])){
-    try{
+if (isset($_POST['form-contact'])) {
+    try {
         $name = strip_tags($_POST['name']);
         $email = strip_tags($_POST['email']);
         $phone = strip_tags($_POST['phone']);
-        $message = strip_tags($_POST['mesaage']);
+        $message = strip_tags($_POST['message']);
 
-        if($_POST['name'] == ''){
+        if ($name == '') {
             throw new Exception('please enter your name');
         }
-        if($_POST['email'] == ''){
+        if ($email == '') {
             throw new Exception('please enter your email');
         }
-        if(!filter_var($email, FILTER_VALIDATE_EMAIL)){
+        if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
             throw new Exception('please enter your valid email');
         }
-        if($_POST['phone'] == ''){
+        if ($phone == '') {
             throw new Exception('please enter your phone number');
         }
-        if($_POST['message'] == ''){
+        if ($message == '') {
             throw new Exception('please enter your message');
         }
-  
-    $mail = new PHPMailer(true);
 
-    $mail->isSMTP();
-    $mail->Host = 'sandbox.smtp.mailtrap.io';
-    $mail->SMTPAuth = true;
-    $mail->Username = '3be5c1a5027ec7';
-    $mail->Password = 'ec9756d11b34d2';
-    $mail->SMTPSecure = 'tls';
-    $mail->Port = 587;
+        $mail = new PHPMailer(true);
 
-    $mail->setFrom('contact@example.com');
-    $mail->addAddress('nazmuldev@gmail.com');
-    $mail->addReplyTo('contact@example.com');
-    $mail->isHTML(true);
-    $mail->Subject = 'TEST SUBJECT';
-    $mail->Body = 'TEST BODY FOR EMAIL';
+        $mail->isSMTP();
+        $mail->Host = SMTP_HOST;
+        $mail->SMTPAuth = true;
+        $mail->Port = SMTP_PORT;
+        $mail->Username = 'SMTP_USERNAME';
+        $mail->Password = 'SMTP_PASSWORD';
+        $mail->SMTPSecure = 'SMTP_ENCRYPTION';
 
-    $mail->send();
 
-    }catch(Exception $e){
+        $mail->setFrom('SMTP_FROM');
+        $mail->addAddress('nazmuldev@gmail.com');
+        $mail->addReplyTo('contact@example.com');
+
+        $mail_message = "<h3>visitor information </h3>";
+        $mail_message .= '<strong>Name : </strong> <br>' . $name . '<br>';
+        $mail_message .= '<strong>Email : </strong><br>' . $email . '<br>';
+        $mail_message .= '<strong>Phone : </strong><br>' . $phone . '<br>';
+        $mail_message .= '<strong>Message : </strong><br>' . nl2br($message) . '<br>';
+
+            $mail->isHTML(true);
+        $mail->Subject = 'contact form';
+        $mail->Body = $mail_message;
+
+        $mail->send();
+        unset($_POST['name']);
+        unset($_POST['email']);
+        unset($_POST['phone']);
+        unset($_POST['message']);
+
+        $_SESSION['success_message'] = 'Thank you for contacting us. We will get back to you shortly.';
+        header("Location: contact.php");
+        exit();
+    
+
+    } catch (Exception $e) {
         $error_message = $e->getMessage();
-    }
+        $_SESSION['error_message'] = $error_message;
+        header("Location: contact.php");
+        exit();
+    } 
 }
 
 
@@ -113,7 +134,7 @@ if( isset($_POST['form-contact'])){
                                 </div>
                             </div>
                         </div>
-                        
+
 
                     </div>
                 </div>
@@ -130,37 +151,44 @@ if( isset($_POST['form-contact'])){
                         <p class="section-subheading">We would like to hear from you.</p>
                     </div>
                     <div class="contact-form--wrapper">
+                        <?php
+                        if (isset($_SESSION['error_message'])) {
+                            echo '<div class="alert alert-danger" role="alert">' . $_SESSION['error_message'] . '</div>';
+                        }if (isset($_SESSION['success_message'])) {
+                            echo '<div class="alert alert-success" role="alert">' . $_SESSION['success_message'] . '</div>';
+                        }    
+                        ?>
                         <form action="" class="contact-form" method="post">
                             <div class="row">
                                 <div class="col-lg-4 col-md-12">
                                     <fieldset>
-                                        <input type="text" placeholder="Full Name *" name="name">
+                                        <input type="text" placeholder="Full Name *" name="name" value="<?php echo (isset($_POST['name'])) ? $_POST['name'] : '' ?>">
                                     </fieldset>
                                 </div>
                                 <div class="col-lg-4 col-md-12">
                                     <fieldset>
-                                        <input type="email" placeholder="Email Address *" name="email">
+                                        <input type="email" placeholder="Email Address *" name="email" value="<?php echo (isset($_POST['email'])) ? $_POST['email'] : '' ?>">
                                     </fieldset>
                                 </div>
                                 <div class="col-lg-4 col-md-12">
                                     <fieldset>
-                                        <input type="text" placeholder="Phone Number *" name="phone">
+                                        <input type="text" placeholder="Phone Number *" name="phone" value="<?php echo (isset($_POST['phone'])) ? $_POST['phone'] : '' ?>">
                                     </fieldset>
                                 </div>
                                 <div class="col-lg-12 col-md-12">
                                     <fieldset>
-                                        <textarea cols="20" rows="6" placeholder="Message *" name="message"></textarea>
+                                        <textarea cols="20" rows="6" placeholder="Message *" name="message"><?php echo (isset($_POST['message'])) ? $_POST['message'] : '' ?></textarea>
                                     </fieldset>
                                     <button type="submit" class="position-relative review-submit-btn contact-submit-btn" name="form-contact">SEND MESSAGE</button>
                                 </div>
-                            </div>                                    
+                            </div>
                         </form>
                     </div>
                 </div>
             </div>
         </div>
         <!-- about banner end -->
-    </div>            
+    </div>
 </main>
 
-       <?php include "footer.php" ?>
+<?php include "footer.php" ?>
