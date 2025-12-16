@@ -35,9 +35,9 @@
                         </fieldset>
                     </div>
                     <div class="col-12 mt-3">
-                        <a href="forget-password.php" class="text_14 d-block">Forgot your password?</a>
+                        <a href="<?php echo BASE_URL; ?>forget-password.php" class="text_14 d-block">Forgot your password?</a>
                         <button type="submit" class="btn-primary d-block mt-4 btn-signin">SIGN IN</button>
-                        <a href="register.php" class="btn-secondary mt-2 btn-signin">CREATE AN ACCOUNT</a>
+                        <a href="<?php echo BASE_URL; ?>register.php" class="btn-secondary mt-2 btn-signin">CREATE AN ACCOUNT</a>
                     </div>
                 </div>
             </form>

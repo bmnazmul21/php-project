@@ -48,12 +48,12 @@
                     </div>
                     <div class="col-12 mt-3">
                         <button type="submit" class="btn-primary d-block mt-3 btn-signin">CREATE ACCOUNT</button>
-                        <a href="login.php" class="btn-secondary mt-2 btn-signin">GO TO LOGIN PAGE</a>
+                        <a href=" <?php echo BASE_URL; ?>login.php" class="btn-secondary mt-2 btn-signin">GO TO LOGIN PAGE</a>
                     </div>
                 </div>
             </form>
         </div>
-    </div>            
+    </div>
 </main>
 
-       <?php include "footer.php" ?>
+<?php include "footer.php" ?>

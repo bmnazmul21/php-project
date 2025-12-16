@@ -3,7 +3,7 @@
 <div class="breadcrumb">
     <div class="container">
         <ul class="list-unstyled d-flex align-items-center m-0">
-            <li><a href="index.php">Home</a></li>
+            <li><a href="<?php echo BASE_URL; ?>index.php">Home</a></li>
             <li class="ml_10 mr_10">
                 <i class="fas fa-chevron-right"></i>
             </li>
@@ -20,7 +20,7 @@
                 <div class="col-lg-9 col-md-12 col-12">
                     <div class="article-rte">
                         <div class="article-img">
-                            <img src="assets/img/blog/furniture-9.jpg" alt="img">
+                            <img src="<?php echo BASE_URL; ?> assets/img/blog/furniture-9.jpg" alt="img">
                         </div>
                         <div class="article-meta">
                             <h2 class="article-title">Delivering What Consumers Really Value?</h2>
@@ -37,7 +37,7 @@
                                     <span class="ms-2">3 Comments</span>
                                 </a>
                                 <span class="article-separator mx-3 d-none d-sm-block">|</span>
-                                <a href="post.php" class="article-date d-none d-sm-flex align-items-center">
+                                <a href="<?php echo BASE_URL; ?>post.php" class="article-date d-none d-sm-flex align-items-center">
                                     <span class="icon-tag">
                                         <i class="fas fa-th-large"></i>
                                     </span>
@@ -50,13 +50,13 @@
                             <p>These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice hand, organizations have the need for integrating in IT departments new technologies.</p>
 
                             <p>A wonderful serenity has taken possssion of my entire souing like these sweet mornng spring with my whole heart I am alone, and feel the charm of existenceths spot whch was create of souls like mineing am so happy my dear frend so absori bed in the exquste sens of mere.</p>
-                                
+
                             <p>A wonderful serenity has taken posseson of my entire soung like these sweet mornngs spring enjoy with my whole heart I am alone and feel the charm of exstenceths spot whch was created ouls like mineing am so happy my dear frend so absoribed in the exquste sense of mere tranquil that neglect my talentsr I should bye ncapable of drawng and single stroke at the A wonderful se taken possesson of my entre souing like.</p>
                         </div>
 
                         <div class="next-prev-article mt-5 d-flex align-items-center justify-content-between">
-                            <a href="post.php" class="article-btn prev-article-btn mt-2">PREV ARTICLE</a>
-                            <a href="post.php" class="article-btn next-article-btn active mt-2">NEXT ARTICLE</a>
+                            <a href="<?php echo BASE_URL; ?>post.php" class="article-btn prev-article-btn mt-2">PREV ARTICLE</a>
+                            <a href="<?php echo BASE_URL; ?>post.php" class="article-btn next-article-btn active mt-2">NEXT ARTICLE</a>
                         </div>
 
                         <div class="comments-section mt-100 home-section overflow-hidden">
@@ -66,7 +66,7 @@
                             <div class="comments-area">
                                 <div class="d-flex comments-item">
                                     <div class="comments-img">
-                                        <img src="assets/img/people/1.jpg" alt="img">
+                                        <img src="<?php echo BASE_URL; ?>assets/img/people/1.jpg" alt="img">
                                     </div>
                                     <div class="comments-main">
                                         <div class="comments-main-content">
@@ -90,7 +90,7 @@
                                         <div class="comments-replied">
                                             <div class="d-flex comments-item">
                                                 <div class="comments-img">
-                                                    <img src="assets/img/people/2.jpg" alt="img">
+                                                    <img src="<?php echo BASE_URL; ?>assets/img/people/2.jpg" alt="img">
                                                 </div>
                                                 <div class="comments-main">
                                                     <div class="comments-meta">
@@ -116,7 +116,7 @@
                                 </div>
                                 <div class="d-flex comments-item">
                                     <div class="comments-img">
-                                        <img src="assets/img/people/3.jpg" alt="img">
+                                        <img src="<?php echo BASE_URL; ?>assets/img/people/3.jpg" alt="img">
                                     </div>
                                     <div class="comments-main">
                                         <div class="comments-main-content">
@@ -167,14 +167,14 @@
                 </div>
                 <div class="col-lg-3 col-md-12 col-12">
                     <div class="filter-drawer blog-sidebar">
-                        
+
                         <div class="filter-widget">
                             <div class="filter-header faq-heading heading_18 d-flex align-items-center justify-content-between border-bottom">
                                 Categories
                             </div>
                             <div class="accordion-collapse">
                                 <ul class="filter-lists list-unstyled mb-0">
-                                <li class="filter-item">
+                                    <li class="filter-item">
                                         <a class="filter-label" href="">
                                             <i class="fas fa-chevron-right mr_10"></i>
                                             Womens Bag
@@ -208,11 +208,11 @@
                             <div class="filter-related">
                                 <div class="related-item related-item-article d-flex">
                                     <div class="related-img-wrapper">
-                                        <img class="related-img" src="assets/img/blog/furniture-1.jpg" alt="img">
+                                        <img class="related-img" src="<?php echo BASE_URL; ?>assets/img/blog/furniture-1.jpg" alt="img">
                                     </div>
                                     <div class="related-product-info">
                                         <h2 class="related-heading text_14">
-                                            <a href="post.php">Modern furniture in velvet</a>
+                                            <a href="<?php echo BASE_URL; ?>post.php">Modern furniture in velvet</a>
                                         </h2>
                                         <p class="article-card-published text_12 d-flex align-items-center mt-2">
                                             <span class="article-date d-flex align-items-center">
@@ -226,11 +226,11 @@
                                 </div>
                                 <div class="related-item related-item-article d-flex">
                                     <div class="related-img-wrapper">
-                                        <img class="related-img" src="assets/img/blog/furniture-2.jpg" alt="img">
+                                        <img class="related-img" src="<?php echo BASE_URL; ?>assets/img/blog/furniture-2.jpg" alt="img">
                                     </div>
                                     <div class="related-product-info">
                                         <h2 class="related-heading text_14">
-                                            <a href="post.php">Ultimate luxury furniture</a>
+                                            <a href="<?php echo BASE_URL; ?>post.php">Ultimate luxury furniture</a>
                                         </h2>
                                         <p class="article-card-published text_12 d-flex align-items-center mt-2">
                                             <span class="article-date d-flex align-items-center">
@@ -244,11 +244,11 @@
                                 </div>
                                 <div class="related-item related-item-article d-flex">
                                     <div class="related-img-wrapper">
-                                        <img class="related-img" src="assets/img/blog/furniture-3.jpg" alt="img">
+                                        <img class="related-img" src="<?php echo BASE_URL; ?>assets/img/blog/furniture-3.jpg" alt="img">
                                     </div>
                                     <div class="related-product-info">
                                         <h2 class="related-heading text_14">
-                                            <a href="post.php">Small bedroom look bigger</a>
+                                            <a href="<?php echo BASE_URL; ?>post.php">Small bedroom look bigger</a>
                                         </h2>
                                         <p class="article-card-published text_12 d-flex align-items-center mt-2">
                                             <span class="article-date d-flex align-items-center">
@@ -262,11 +262,11 @@
                                 </div>
                                 <div class="related-item related-item-article d-flex">
                                     <div class="related-img-wrapper">
-                                        <img class="related-img" src="assets/img/blog/furniture-4.jpg" alt="img">
+                                        <img class="related-img" src="<?php echo BASE_URL; ?>assets/img/blog/furniture-4.jpg" alt="img">
                                     </div>
                                     <div class="related-product-info">
                                         <h2 class="related-heading text_14">
-                                            <a href="post.php">Update your living room</a>
+                                            <a href="<?php echo BASE_URL; ?>post.php">Update your living room</a>
                                         </h2>
                                         <p class="article-card-published text_12 d-flex align-items-center mt-2">
                                             <span class="article-date d-flex align-items-center">
@@ -280,11 +280,11 @@
                                 </div>
                                 <div class="related-item related-item-article d-flex">
                                     <div class="related-img-wrapper">
-                                        <img class="related-img" src="assets/img/blog/furniture-5.jpg" alt="img">
+                                        <img class="related-img" src="<?php echo BASE_URL; ?>assets/img/blog/furniture-5.jpg" alt="img">
                                     </div>
                                     <div class="related-product-info">
                                         <h2 class="related-heading text_14">
-                                            <a href="post.php">Choose the right fabric</a>
+                                            <a href="<?php echo BASE_URL; ?>post.php">Choose the right fabric</a>
                                         </h2>
                                         <p class="article-card-published text_12 d-flex align-items-center mt-2">
                                             <span class="article-date d-flex align-items-center">
@@ -304,22 +304,22 @@
                             </div>
                             <ul class="filter-tags list-unstyled">
                                 <li class="tag-item"><a href="post.php">Popular</a></li>
-                                <li class="tag-item"><a href="post.php">Agency</a></li>
-                                <li class="tag-item"><a href="post.php">Furniture</a></li>
-                                <li class="tag-item"><a href="post.php">creative</a></li>
-                                <li class="tag-item"><a href="post.php">design</a></li>
-                                <li class="tag-item"><a href="post.php">modern</a></li>
-                                <li class="tag-item"><a href="post.php">UX</a></li>
-                                <li class="tag-item"><a href="post.php">web</a></li>
-                                <li class="tag-item"><a href="post.php">bag</a></li>
-                                <li class="tag-item"><a href="post.php">shoe</a></li>
+                                <li class="tag-item"><a href="<?php echo BASE_URL; ?>post.php">Agency</a></li>
+                                <li class="tag-item"><a href="<?php echo BASE_URL; ?>post.php">Furniture</a></li>
+                                <li class="tag-item"><a href="<?php echo BASE_URL; ?>post.php">creative</a></li>
+                                <li class="tag-item"><a href="<?php echo BASE_URL; ?>post.php">design</a></li>
+                                <li class="tag-item"><a href="<?php echo BASE_URL; ?>post.php">modern</a></li>
+                                <li class="tag-item"><a href="<?php echo BASE_URL; ?>post.php">UX</a></li>
+                                <li class="tag-item"><a href="<?php echo BASE_URL; ?>post.php">web</a></li>
+                                <li class="tag-item"><a href="<?php echo BASE_URL; ?>post.php">bag</a></li>
+                                <li class="tag-item"><a href="<?php echo BASE_URL; ?>post.php">shoe</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>            
+    </div>
 </main>
 
-       <?php include "footer.php" ?>
+<?php include "footer.php" ?>
