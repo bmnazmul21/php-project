@@ -1,28 +1,29 @@
-
 <?php
-    ob_start();
-    session_start();
-    include "config/config.php";
-    use PHPMailer\PHPMailer\PHPMailer;
-    use PHPMailer\PHPMailer\SMTP;
-    use PHPMailer\PHPMailer\Exception;
+ob_start();
+session_start();
+include "config/config.php";
 
-    require 'vendor/autoload.php';
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception;
+
+require 'vendor/autoload.php';
 ?>
 <!doctype html>
 <html lang="en" class="no-js">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <title>Ecommerce Website</title>
-    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="<?php echo BASE_URL; ?>assets/img/favicon.png" type="image/x-icon">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
 
     <style>
@@ -73,9 +74,9 @@
             --section-subheading-font-weight: 400;
         }
     </style>
-    <link rel="stylesheet" href="assets/css/vendor.css">
-    <link rel="stylesheet" href="assets/css/spacing.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/vendor.css">
+    <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/spacing.css">
+    <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/style.css">
 </head>
 
 <body>
@@ -95,7 +96,7 @@
                     </div>
                     <div class="col-lg-6 col-12">
                         <div class="announcement-text-wrapper d-flex align-items-center justify-content-center">
-                            
+
                         </div>
                     </div>
                     <div class="col-lg-3 d-lg-block d-none">
@@ -122,8 +123,8 @@
                     <div class="row align-items-center">
                         <div class="col-lg-3 col-md-4 col-4">
                             <div class="header-logo">
-                                <a href="index.php" class="logo-main">
-                                    <img src="assets/img/logo.png" loading="lazy" alt="">
+                                <a href="<?php echo BASE_URL; ?>" class="logo-main">
+                                    <img src="<?php echo BASE_URL; ?>assets/img/logo.png" loading="lazy" alt="">
                                 </a>
                             </div>
                         </div>
@@ -131,17 +132,17 @@
                             <nav class="site-navigation">
                                 <ul class="main-menu list-unstyled justify-content-center">
                                     <li class="menu-list-item nav-item active">
-                                        <a class="nav-link" href="index.php">Home</a>
+                                        <a class="nav-link" href="<?php echo BASE_URL; ?>">Home</a>
                                     </li>
                                     <li class="menu-list-item nav-item">
-                                        <a class="nav-link" href="shop.php">Shop</a>
+                                        <a class="nav-link" href="<?php echo BASE_URL; ?>shop.php">Shop</a>
                                     </li>
                                     <li class="menu-list-item nav-item">
-                                        <a class="nav-link" href="blog.php">Blog</a>
+                                        <a class="nav-link" href="<?php echo BASE_URL; ?>blog.php">Blog</a>
                                     </li>
                                     <li class="menu-list-item nav-item has-dropdown">
                                         <div class="mega-menu-header">
-                                            <a class="nav-link" href="about-us.php">
+                                            <a class="nav-link" href="javascript:void">
                                                 Pages
                                             </a>
                                             <span class="open-submenu">
@@ -151,16 +152,16 @@
                                         <div class="submenu-transform submenu-transform-desktop">
                                             <ul class="submenu list-unstyled">
                                                 <li class="menu-list-item nav-item-sub">
-                                                    <a class="nav-link-sub nav-text-sub" href="about-us.php">About Us</a>
+                                                    <a class="nav-link-sub nav-text-sub" href="<?php echo BASE_URL; ?>about-us.php">About Us</a>
                                                 </li>
                                                 <li class="menu-list-item nav-item-sub">
-                                                    <a class="nav-link-sub nav-text-sub" href="faq.php">FAQ</a>
+                                                    <a class="nav-link-sub nav-text-sub" href="<?php echo BASE_URL; ?>faq.php">FAQ</a>
                                                 </li>
                                             </ul>
                                         </div>
                                     </li>
                                     <li class="menu-list-item nav-item">
-                                        <a class="nav-link" href="contact.php">Contact</a>
+                                        <a class="nav-link" href="<?php echo BASE_URL; ?>contact.php">Contact</a>
                                     </li>
                                 </ul>
                             </nav>

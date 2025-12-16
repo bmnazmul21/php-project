@@ -10,8 +10,8 @@ try {
 } catch (PDOException $expection) {
     echo "Connection error: " . $expection->getMessage();
 }
-// define('BASE_URL', 'http://localhost/php-project/ecommerce_project/');
-// define('ADMIN_URL', BASE_URL . 'admin/');
+define('BASE_URL', 'http://localhost/php-project/ecommerce_project/');
+define('ADMIN_URL', BASE_URL . 'admin/');
 define('SMTP_HOST', 'sandbox.smtp.mailtrap.io');
 define('SMTP_PORT', 587);
 define('SMTP_USERNAME', '3be5c1a5027ec7');
