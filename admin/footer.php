@@ -8,7 +8,7 @@
     <script src="dist/js/custom.js"></script>
     <?php if($cur_page == 'index.php'): ?>
 
-    <script src="dist/js/chart.min.js"></script>
+    <script src="<?php echo ADMIN_URL; ?>dist/js/chart.min.js"></script>
     <script>
         // Graphs
         const ctx = document.getElementById('myChart');
