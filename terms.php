@@ -41,5 +41,3 @@
         <!-- about hero end -->
     </div>            
 </main>
-
-      <?php include "footer.php" ?>
